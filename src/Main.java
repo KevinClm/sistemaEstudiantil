@@ -10,5 +10,6 @@ public class Main {
         System.out.println("Ingrese la nota del segundo bimestre: ");
         estudiante1.setNota2(input.nextDouble());
         estudiante1.imprimirDatos();
+        estudiante1.supletorio();
     }
 }

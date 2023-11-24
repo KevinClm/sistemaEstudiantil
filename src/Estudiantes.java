@@ -62,4 +62,12 @@ public class Estudiantes {
         System.out.println("Nota 1: "+getNota1());
         System.out.println("Nota 2: "+getNota2());
     }
+    public void supletorio(){
+        if ((getNota1()+getNota2())/2>7){
+            System.out.println("Aprobado");
+        }
+        else {
+            System.out.println("Supletorio");
+        }
+    }
 }
