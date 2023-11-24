@@ -56,4 +56,10 @@ public class Estudiantes {
     public void setNota2(double nota2) {
         this.nota2 = nota2;
     }
+    public void imprimirDatos(){
+        System.out.println("Estudiante: "+getNombre()+" "+getApellido());
+        System.out.println("Materia: "+getMateria());
+        System.out.println("Nota 1: "+getNota1());
+        System.out.println("Nota 2: "+getNota2());
+    }
 }

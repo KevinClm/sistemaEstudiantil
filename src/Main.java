@@ -8,5 +8,7 @@ public class Main {
         System.out.println("Ingrese la nota del primer bimestre: ");
         estudiante1.setNota1(input.nextDouble());
         System.out.println("Ingrese la nota del segundo bimestre: ");
+        estudiante1.setNota2(input.nextDouble());
+        estudiante1.imprimirDatos();
     }
 }
